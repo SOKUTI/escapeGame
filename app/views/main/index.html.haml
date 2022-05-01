@@ -1,0 +1,22 @@
+.main_title
+  %h1
+    簡単にできる脱出ゲーム
+.main_config{data: {uid: current_user.id, exist: @dataExistence}}
+.main_game
+  .main_game__game_screen#scene1
+    .main_game__game_screen__door
+    .main_game__game_screen__box
+    .main_game__game_screen__tile_p
+    .main_game__game_screen__driver
+  .main_game__items
+    .main_game__items__item
+    .main_game__items__research
+      調べる
+  .main_game__config
+    .main_game__config__save
+      SAVE
+    .main_game__config__logout
+      = link_to 'User Edit', edit_user_path(current_user.id), method: "get"
+.main_footer
+  %footer
+    supported by enp's channel

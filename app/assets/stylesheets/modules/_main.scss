@@ -1,0 +1,524 @@
+* {
+  box-sizing: border-box;
+}
+
+.main_title {
+  height: 100px;
+  padding-top: 20px;
+  line-height: 100px;
+  text-align: center;
+  h1 {
+    font-size: 50px;
+  }
+}
+
+.main_footer {
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  footer {
+    font-size: 25px;
+  }
+}
+
+.main_config {
+  display: none;
+}
+
+#scene1 {
+  background-image: url(1.png);
+  background-repeat: no-repeat;
+  background-size: 736px 414px;
+}
+
+#scene2 {
+  background-image: url(2.png);
+  background-repeat: no-repeat;
+  background-size: 736px 414px;
+}
+
+#scene3 {
+  background-image: url(3.png);
+  background-repeat: no-repeat;
+  background-size: 736px 414px;
+}
+
+#scene4 {
+  background-image: url(4.png);
+  background-repeat: no-repeat;
+  background-size: 736px 414px;
+}
+
+#scene5 {
+  background-image: url(5.png);
+  background-repeat: no-repeat;
+  background-size: 736px 414px;
+}
+
+#scene6 {
+  background-image: url(6.png);
+  background-repeat: no-repeat;
+  background-size: 736px 414px;
+}
+
+#scene7 {
+  background-image: url(7.png);
+  background-repeat: no-repeat;
+  background-size: 736px 414px;
+}
+
+#scene8 {
+  background-image: url(8.png);
+  background-repeat: no-repeat;
+  background-size: 736px 414px;
+}
+
+#scene9 {
+  background-image: url(9.png);
+  background-repeat: no-repeat;
+  background-size: 736px 414px;
+}
+
+#scene10 {
+  background-image: url(10.png);
+  background-repeat: no-repeat;
+  background-size: 736px 414px;
+}
+
+#scene11 {
+  background-image: url(11.png);
+  background-repeat: no-repeat;
+  background-size: 736px 414px;
+}
+
+#scene12 {
+  background-image: url(12.png);
+  background-repeat: no-repeat;
+  background-size: 736px 414px;
+}
+
+#box {
+  background-image: url(item7.png);
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+}
+
+#tile_o {
+  background-image: url(item4.png);
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+}
+
+#tile_p {
+  background-image: url(item3.png);
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+}
+
+#tile_e {
+  background-image: url(item1.png);
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+}
+
+#tile_n {
+  background-image: url(item5.png);
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+}
+
+#driver {
+  background-image: url(item6.png);
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+}
+
+#tile {
+  background-image: url(item29.png);
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+}
+
+#key {
+  background-image: url(item28.png);
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+}
+
+#itemSceneFlontBox1 {
+  background-image: url(item7.png);
+  background-repeat: no-repeat;
+  background-size: 736px 414px;
+}
+
+#itemSceneFlontBox2 {
+  background-image: url(item15.png);
+  background-repeat: no-repeat;
+  background-size: 736px 414px;
+}
+
+#itemSceneFlontBox3 {
+  background-image: url(item17.png);
+  background-repeat: no-repeat;
+  background-size: 736px 414px;
+}
+
+#itemSceneFlontBox4 {
+  background-image: url(item18.png);
+  background-repeat: no-repeat;
+  background-size: 736px 414px;
+}
+
+#itemSceneFlontBox5 {
+  background-image: url(item19.png);
+  background-repeat: no-repeat;
+  background-size: 736px 414px;
+}
+
+#itemSceneFlontBox6 {
+  background-image: url(item16.png);
+  background-repeat: no-repeat;
+  background-size: 736px 414px;
+}
+
+#itemSceneFlontBox7 {
+  background-image: url(item14.png);
+  background-repeat: no-repeat;
+  background-size: 736px 414px;
+}
+
+#itemSceneFlontBox8 {
+  background-image: url(item13.png);
+  background-repeat: no-repeat;
+  background-size: 736px 414px;
+}
+
+#itemSceneFlontBox9 {
+  background-image: url(item20.png);
+  background-repeat: no-repeat;
+  background-size: 736px 414px;
+}
+
+#itemSceneFlontBox10 {
+  background-image: url(item21.png);
+  background-repeat: no-repeat;
+  background-size: 736px 414px;
+}
+
+#itemSceneFlontBox11 {
+  background-image: url(item22.png);
+  background-repeat: no-repeat;
+  background-size: 736px 414px;
+}
+
+#itemSceneFlontBox12 {
+  background-image: url(item9.png);
+  background-repeat: no-repeat;
+  background-size: 736px 414px;
+}
+
+#itemSceneFlontBox13 {
+  background-image: url(item10.png);
+  background-repeat: no-repeat;
+  background-size: 736px 414px;
+}
+
+#itemSceneFlontBox14 {
+  background-image: url(item11.png);
+  background-repeat: no-repeat;
+  background-size: 736px 414px;
+}
+
+#itemSceneFlontBox15 {
+  background-image: url(item12.png);
+  background-repeat: no-repeat;
+  background-size: 736px 414px;
+}
+
+#itemSceneFlontBox16 {
+  background-image: url(item8.png);
+  background-repeat: no-repeat;
+  background-size: 736px 414px;
+}
+
+#itemSceneOpenBox {
+  background-image: url(item26.png);
+  background-repeat: no-repeat;
+  background-size: 736px 414px;
+}
+
+#itemSceneFlontTile_o {
+  background-image: url(item4.png);
+  background-repeat: no-repeat;
+  background-size: 736px 414px;
+}
+
+#itemSceneFlontTile_p {
+  background-image: url(item3.png);
+  background-repeat: no-repeat;
+  background-size: 736px 414px;
+}
+
+#itemSceneFlontTile_e {
+  background-image: url(item1.png);
+  background-repeat: no-repeat;
+  background-size: 736px 414px;
+}
+
+#itemSceneFlontTile_n {
+  background-image: url(item5.png);
+  background-repeat: no-repeat;
+  background-size: 736px 414px;
+}
+
+#itemSceneDriver {
+  background-image: url(item6.png);
+  background-repeat: no-repeat;
+  background-size: 736px 414px;
+}
+
+#itemSceneFlontTile {
+  background-image: url(item29.png);
+  background-repeat: no-repeat;
+  background-size: 736px 414px;
+}
+
+#itemSceneKey {
+  background-image: url(item28.png);
+  background-repeat: no-repeat;
+  background-size: 736px 414px;
+}
+
+#itemSceneBackBox1 {
+  background-image: url(item23.png);
+  background-repeat: no-repeat;
+  background-size: 736px 414px;
+}
+
+#itemSceneBackBox2 {
+  background-image: url(item24.png);
+  background-repeat: no-repeat;
+  background-size: 736px 414px;
+}
+
+#itemSceneBackBox3 {
+  background-image: url(item25.png);
+  background-repeat: no-repeat;
+  background-size: 736px 414px;
+}
+
+#itemSceneBackTile {
+  background-image: url(item30.png);
+  background-repeat: no-repeat;
+  background-size: 736px 414px;
+}
+
+#itemSceneBackOpen {
+  background-image: url(item2.png);
+  background-repeat: no-repeat;
+  background-size: 736px 414px;
+}
+
+.main_game {
+  height: calc(100vh - 200px);
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__game_screen {
+    height: 414px;
+    width: 736px;
+    margin-top: 10px;
+    position: relative;
+    background-color: grey;
+    &__door {
+      position: absolute;
+      height: 163px;
+      width: 92px;
+      bottom: 98px;
+      right: 175px;
+    }
+    &__box {
+      position: absolute;
+      height: 25px;
+      width: 65px;
+      bottom: 137px;
+      left: 112px;
+    }
+    &__tile_p {
+      position: absolute;
+      height: 25px;
+      width: 25px;
+      bottom: 130px;
+      left: 233px;
+    }
+    &__tile_e {
+      position: absolute;
+      height: 25px;
+      width: 25px;
+      bottom: 137px;
+      left: 152px;
+    }
+    &__driver {
+      position: absolute;
+      height: 20px;
+      width: 35px;
+      bottom: 78px;
+      left: 175px;
+    }
+    &__box_flont1 {
+      position: absolute;
+      height: 36px;
+      width: 60px;
+      top: 123px;
+      left: 250px;
+    }
+    &__box_flont2 {
+      position: absolute;
+      height: 36px;
+      width: 53px;
+      top: 123px;
+      left: 312px;
+    }
+    &__box_flont3 {
+      position: absolute;
+      height: 36px;
+      width: 50px;
+      top: 123px;
+      left: 371px;
+    }
+    &__box_flont4 {
+      position: absolute;
+      height: 36px;
+      width: 57px;
+      top: 123px;
+      left: 425px;
+    }
+    &__back_box {
+      position: absolute;
+      height: 97px;
+      width: 161px;
+      bottom: 135px;
+      right: 217px;
+    }
+    &__key {
+      position: absolute;
+      height: 50px;
+      width: 120px;
+      bottom: 200px;
+      right: 310px;
+    }
+    &__tile {
+      position: absolute;
+      height: 82px;
+      width: 182px;
+      bottom: 160px;
+      right: 275px;
+    }
+    &__get_key {
+      position: absolute;
+      height: 42px;
+      width: 82px;
+      bottom: 215px;
+      right: 333px;
+    }
+    &__turn {
+      position: absolute;
+      height: 55px;
+      width: 105px;
+      bottom: 5px;
+      left: 10px;
+      font-size: 35px;
+      font-weight: bold;
+      color: deeppink;
+    }
+    &__return {
+      position: absolute;
+      height: 55px;
+      width: 70px;
+      bottom: 5px;
+      right: 10px;
+      font-size: 35px;
+      font-weight: bold;
+      color: blue;
+    }
+  }
+  &__items {
+    height: 70px;
+    width: 736px;
+    padding: 10px;
+    padding-left: 5px;
+    display: flex;
+    background-color: maroon;
+    &__item {
+      height: 50px;
+      width: 640px;
+      display: flex;
+      &__border {
+        border: 3px solid #7fffff;
+      }
+      &__item_icon {
+        margin-left: 5px;
+        margin-right: 5px;
+        height: 50px;
+        width: 50px;
+      }
+    }
+    &__research {
+      margin-left: 5px;
+      line-height: 50px;
+      font-size: 25px;
+      font-weight: bold;
+      color: yellow;
+    }
+  }
+  &__config {
+    height: 75px;
+    width: 736px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    &__save {
+      height: 50px;
+      width: 200px;
+      line-height: 50px;
+      text-align: center;
+      border-radius: 30px;
+      background-color: aquamarine;
+      font-size: 25px;
+      color: darkblue;
+      &:hover {
+        box-shadow: 0 0 20px aquamarine;
+      }
+    }
+    &__update {
+      height: 50px;
+      width: 200px;
+      line-height: 50px;
+      text-align: center;
+      border-radius: 30px;
+      background-color: aquamarine;
+      font-size: 25px;
+      color: darkblue;
+      &:hover {
+        box-shadow: 0 0 20px aquamarine;
+      }
+    }
+    &__logout {
+      height: 50px;
+      width: 200px;
+      line-height: 50px;
+      text-align: center;
+      border-radius: 30px;
+      background-color: crimson;
+      &:hover {
+        box-shadow: 0 0 20px crimson;
+      }
+      a {
+        text-decoration: none;
+        font-size: 25px;
+        color: snow;
+      }
+    }
+  }
+}
